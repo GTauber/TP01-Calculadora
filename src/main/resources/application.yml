@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: calculator
+
+server:
+  servlet:
+    context-path: /api
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
